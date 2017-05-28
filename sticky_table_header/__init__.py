@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 __author__ = "Deepak Dixit"
-__copyright__ = "Copyright 2007, Deepak Dixit"
+__copyright__ = "Copyright 2017, Deepak Dixit"
 __credits__ = ["Deepak Dixit", "Jonas Mosbech"]
 __license__ = "MIT"
 __version__ = "1.0.1"
