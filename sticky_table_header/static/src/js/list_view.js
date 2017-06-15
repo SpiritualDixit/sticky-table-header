@@ -8,7 +8,7 @@ odoo.define('sticky_table_header.ListView',function(require){
         load_list: function(data, a)
         {
             var self = this;
-            $(document).delegate("table.o_list_view","mouseenter", function(){
+            (!$(".o_content .o_form_view").length) && $(document).delegate("table.o_list_view","mouseenter", function(){
 
                 var scrollArea = self.$el.parents(
                     '.o_view_manager_content'
